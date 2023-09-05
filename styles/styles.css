@@ -34,3 +34,20 @@ img{
 .collage-container3 > div{
     flex: 1;
 }
+
+/* responsive media query */
+
+@media screen and (max-width : 576px) {
+    .collage-container2{
+        flex-direction: column;
+    }
+    .collage-container3{
+        flex-direction: column;
+    }
+    .collage-container{
+        flex-direction: column;
+    }
+    .another-collage{
+        grid-template-columns: 1fr;
+    }
+}
